@@ -1,0 +1,15 @@
+name: TFBBlockBuild
+version: '${project.version}'
+main: me.koba1.tfbblockbuild.Main
+api-version: 1.17
+authors: [ kbalu ]
+description: TFBBlockBuild
+
+depend:
+  - WorldEdit
+  - Multiverse-Core
+  - FastAsyncWorldEdit
+
+commands:
+  tfbschematics:
+    aliases: [ tfbschem ]
